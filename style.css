@@ -4,50 +4,57 @@ body {
   color: #333;
   margin: 0;
   padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 main {
   background: white;
-  max-width: 700px;
-  /* This centers the entire content card on the screen */
-  margin: 0 auto; 
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  /* This shifts all baseline text to the center */
-  text-align: center; 
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
 h1, h3 {
   color: #1b4332;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 p {
   line-height: 1.6;
   font-size: 16px;
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 25px;
 }
 
+ol {
   display: inline-block;
   text-align: left;
   padding-left: 20px;
-  margin-bottom: 25px;
+  margin: 15px auto;
 }
 
 li {
   margin-bottom: 8px;
-  line-height: 1.4;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto;
+  width: 100%;
 }
 
 img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin: 0 auto;
   max-width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 8px;
 }
